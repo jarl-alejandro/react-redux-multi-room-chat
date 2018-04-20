@@ -28,7 +28,7 @@ npm run client
 ```
 npm run build
 ```
-### Open `http://localhost:8080/` in 2 tabs
+### Open `https://sagachat.herokuapp.com/`
 
 
 ## Author
