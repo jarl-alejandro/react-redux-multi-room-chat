@@ -6,7 +6,7 @@ import {
 } from './actions'
 
 function connect() {
-  const socket = io('http://192.168.0.121:3000')
+  const socket = io('https://sagachat.herokuapp.com/')
   return new Promise(resolve => {
     socket.on('connect', () => {
       resolve(socket)

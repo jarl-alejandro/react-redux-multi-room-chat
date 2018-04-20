@@ -5,11 +5,6 @@ var http = require('http')
  
 app.use(serve({rootDir: 'public'}))
 
-// app.listen(3000)
-
- 
-
- 
 
 app.use(function* (next) {
   if (this.path !== '/') return yield next
